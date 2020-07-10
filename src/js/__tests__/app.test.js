@@ -138,8 +138,8 @@ test('Ошибка в type', () => {
 });
 
 test('Ошибка в type', () => {
-    expect(() => {
-        const bow = new Daemon('Ann', 'Bow');
-        return bow;
-    }).toThrow();
+  expect(() => {
+    const bow = new Daemon('Ann', 'Bow');
+    return bow;
+  }).toThrow();
 });
